@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Royal-Blue Backdrop -->
+  <rect x="2" y="2" width="124" height="124" rx="28" fill="#2563EB" />
+
+  <!-- Chunky White Speech-Bubble Card -->
+  <path
+    fill="#FFFFFF"
+    d="M 40 24 L 88 24 Q 104 24 104 40 L 104 74 Q 104 90 88 90 L 54 90 L 34 106 Q 28 110 30 103 L 34 89 Q 24 87 24 74 L 24 40 Q 24 24 40 24 Z"
+  />
+
+  <!-- Bold Navy & Amber Context Bars -->
+  <rect x="38" y="42" width="52" height="11" rx="5.5" fill="#1E293B" />
+  <rect x="38" y="61" width="34" height="11" rx="5.5" fill="#F59E0B" />
+</svg>
