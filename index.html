@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PolitiCard — Privacy Policy</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        line-height: 1.65;
+        color: #1e293b;
+        background: #f8fafc;
+        margin: 0;
+        padding: 32px 16px;
+      }
+      main {
+        max-width: 740px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 36px 40px;
+        border-radius: 12px;
+        border: 1px solid #e2e8f0;
+      }
+      h1 { margin-top: 0; color: #0f172a; font-size: 28px; }
+      h2 { margin-top: 28px; color: #0f172a; font-size: 18px; border-bottom: 1px solid #f1f5f9; padding-bottom: 6px; }
+      ul { padding-left: 20px; }
+      li { margin-bottom: 8px; }
+      .meta { color: #64748b; font-size: 14px; margin-bottom: 24px; }
+      code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>PolitiCard Privacy Policy</h1>
+      <p class="meta">Effective Date: November 25, 2026</p>
+
+      <p>
+        <strong>PolitiCard</strong> is a browser extension for Chrome and Firefox that highlights
+        names of current U.S. Members of Congress on webpages and displays non-partisan public
+        information (term countdowns, official portraits, voting records, and recent news).
+      </p>
+
+      <h2>1. Data We Do Not Collect</h2>
+      <p>
+        PolitiCard does <strong>not</strong> collect, sell, rent, or transmit your personal
+        information, browsing history, search queries, form inputs, or webpage contents to any
+        developer-operated server or third-party analytics/advertising service. We have no user
+        accounts, tracking pixels, or telemetry.
+      </p>
+
+      <h2>2. How Webpage Content Is Processed (100% Locally)</h2>
+      <p>
+        When enabled, PolitiCard scans text nodes on webpages locally inside your browser solely
+        to identify and highlight the names of current U.S. Members of Congress. Webpage text
+        never leaves your device.
+      </p>
+
+      <h2>3. Data Stored Locally on Your Device</h2>
+      <p>
+        PolitiCard uses your browser's built-in <code>storage.local</code> API to store only:
+      </p>
+      <ul>
+        <li><strong>Extension Settings:</strong> Your on/off and Civic Context Filter preferences.</li>
+        <li><strong>Temporary Tab Detections:</strong> The list of politicians detected on your open tabs so the toolbar popup and badge count can display them. These entries are automatically removed when you close a tab.</li>
+        <li><strong>Public Data Cache:</strong> Cached public congressional rosters, member profiles, voting feeds, and news headlines to keep the extension fast and reduce network requests.</li>
+      </ul>
+
+      <h2>4. Third-Party Public Data Sources</h2>
+      <p>
+        To display public legislative and news information, PolitiCard's background script makes
+        direct read-only HTTPS requests to the following public data providers (sending only
+        public legislator IDs or names—never your personal data or the URL you are reading):
+      </p>
+      <ul>
+        <li><code>unitedstates.github.io</code> — Public-domain U.S. Congress roster and official portraits.</li>
+        <li><code>civdotiq.org</code> — Public congressional member profiles, roll-call votes, and legislative feeds.</li>
+        <li><code>api.gdeltproject.org</code> — Recent public news article links mentioning a selected Member of Congress.</li>
+        <li><code>news.google.com</code> — Fallback public RSS news headlines mentioning a selected Member of Congress.</li>
+      </ul>
+
+      <h2>5. Chrome Web Store Limited Use Disclosure</h2>
+      <p>
+        PolitiCard's use and transfer to any other app of information received from Google APIs
+        and browser data will adhere to the
+        <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use" target="_blank" rel="noopener noreferrer">
+          Chrome Web Store User Data Policy
+        </a>, including the Limited Use requirements. All data processing is strictly limited to
+        providing PolitiCard's single user-facing purpose.
+      </p>
+
+      <h2>6. Changes to This Policy</h2>
+      <p>
+        If PolitiCard's data handling practices change in a future update, this privacy policy
+        will be updated prior to or alongside that release and disclosed within the extension's
+        store listing.
+      </p>
+
+      <h2>7. Contact</h2>
+      <p>
+        If you have questions about this privacy policy, contact:
+        <a href="mailto:[privacy@bentrandigital.com]">[privacy@bentrandigital.com]</a>
+      </p>
+    </main>
+  </body>
+</html>
